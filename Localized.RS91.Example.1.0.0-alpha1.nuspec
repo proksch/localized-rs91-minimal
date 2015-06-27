@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>Localized.RS91</id>
+        <version>1.0.0-alpha1</version>
+        <title>Localized R#9.1 Example</title>
+        <authors>Some Authors</authors>
+        <description>Minimal example of a localized window in ReSharper 9.1</description>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+        <copyright>Copyright 2013-2015</copyright>
+        <dependencies>
+            <dependency id="Wave" version="[2.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+		<file src="bin\Debug\Localized-RS91-Minimal.dll" target="DotFiles\Localized-RS91-Minimal.dll" />
+    </files>
+</package>
