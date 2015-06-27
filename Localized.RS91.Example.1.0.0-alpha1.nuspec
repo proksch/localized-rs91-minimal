@@ -13,6 +13,8 @@
         </dependencies>
     </metadata>
     <files>
-		<file src="bin\Debug\Localized-RS91-Minimal.dll" target="DotFiles\Localized-RS91-Minimal.dll" />
+        <file src="bin\Debug\Localized-RS91-Minimal.dll" target="DotFiles" />
+        <file src="bin\Debug\en\*.resources.dll" target="DotFiles\en" />
+        <file src="bin\Debug\en-us\*.resources.dll" target="DotFiles\en-us" />
     </files>
 </package>
